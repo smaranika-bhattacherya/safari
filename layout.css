@@ -1,0 +1,169 @@
+body,html{
+    height:100%;
+    margin: 0;
+}
+.bgimage{
+    width: 100%;
+    height: 100%;
+}
+.backgroundimage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.image{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:99%;
+    height: 100%;
+    z-index: 2;b
+}
+.wildlife{
+    z-index: 1;
+    position: absolute;
+    left:10%;
+    top:25%;
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+    font-size:200px;
+    color: rgba(255, 255, 255, 0.663);
+    font-weight: bolder;
+}
+.adventure{
+    font-family: 'Oswald','san serif';
+    font-weight: 500;
+    color: white;
+    position:absolute;
+    left:10%;
+    top:6%;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.fullstop{
+    color:yellow;
+}
+.under{
+    color:white;
+    font-family: 'Oswald','san serif';
+    z-index: 3;
+    position: absolute;
+    letter-spacing: 41px;
+    font-size:20px;
+    left:11.5%;
+    top:68%;
+    font-weight:500;
+}
+.flex-text{
+    display:flex;
+    flex-direction:row;
+    position: absolute;
+    left:10%;
+    top:86%;
+    z-index: 5;
+    justify-content: space-between;
+    width:78%;
+}
+.second{
+    width:30%;
+}
+.first,.second,.third,.fourth,.fifth{
+    display:flex;
+    flex-direction:column;
+    z-index: 5;
+}
+.upper1,.upper2,.upper3,.upper4,.upper5,.lower1,.lower2,.lower3,.lower4,.lower5{
+    font-family:'Oswald','san serif';
+    color:white;
+}
+.lower1,.lower2,.upper3,.upper4,.upper5{
+    color:yellow;
+}
+.upper3,.upper4,.upper5{
+    font-weight: 600;
+    font-size:20px;
+}
+.navbar{
+    z-index: 6;
+    position:absolute;
+    background-color: #7C7153;
+    right: 0px;
+    top: 0px;
+    width: 50px;
+    height: 100%;
+}
+.menu{
+    left: 25%;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: relative;
+    top:4%;
+}
+.fb,.twitter, .insta{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    position: relative;
+    left: 25%;
+    opacity:0.5;
+    cursor:pointer;
+}
+.fb{
+    top:30%;
+}
+.twitter{
+    top: 35%;
+}
+.insta{
+    top: 40%;
+}
+.la{
+    position:absolute;
+    background-color: #857C5F;
+    top: 86.4%;
+    width: 50px;
+    height: 50px;
+    opacity:0.5;
+}
+.ra{
+        position:absolute;
+        background-color:#9A9377;
+        top: 93%;
+        width: 50px;
+        height: 50px;
+        opacity:0.5;
+}
+.left,.right{
+    position:absolute;
+    top:35%;
+    left:35%;
+    width:30%;
+    height:auto;
+}
+.date,.month{
+    transform: rotate(90deg);
+}
+.date{
+    position:absolute;
+    font-family:'Oswald','san serif';
+    font-size:25px;
+    color:#9A9377;
+    top:77%;
+}
+.month{
+    font-family:'Oswald','san serif';
+    font-size:25px;
+    color:#857C5F;
+}
+
+
+
