@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    long long d= (pow(2,480))+1;
+    for (long long i=2;i<sqrt(d);i++){
+        int count=0;
+        int temp;
+        for(int j=1;j<i;j++){
+            if(i%j==0)
+            {
+                count++;
+            }
+            temp=j;
+        }
+        if(count==2){
+            printf("%lld it is a prime number", i);
+            if(d%temp==0){
+                printf("%lld is a composite number since according to the theorem if there exists atleast one prime number till sqrt of n that's divisible by n, then n is a composite number", d);
+            }
+        }
+        
+    }
+
+    return 0;
+}

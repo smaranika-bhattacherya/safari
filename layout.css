@@ -20,20 +20,24 @@ body,html{
     position: absolute;
     top:0px;
     left: 0px;
-    width:99%;
+    width:100%;
     height: 100%;
-    z-index: 2;b
+    z-index: 2;
 }
 .wildlife{
     z-index: 1;
     position: absolute;
     left:10%;
     top:25%;
-    width:100%;
+    width:50%;
     font-family: 'Oswald', sans-serif;
     font-size:200px;
     color: rgba(255, 255, 255, 0.663);
     font-weight: bolder;
+}
+.life{
+    position:absolute;
+    left:100%;
 }
 .adventure{
     font-family: 'Oswald','san serif';
